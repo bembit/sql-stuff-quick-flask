@@ -20,5 +20,5 @@ for rule in app.url_map.iter_rules():
     print(rule)
 
 if __name__ == '__main__':
-    app.run(port=3000, debug=True)
+    app.run(port=3001, debug=True)
 
